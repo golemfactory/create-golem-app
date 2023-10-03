@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       # Regular release channels
-      - main
+      - master
       - next
       - beta
       - alpha
