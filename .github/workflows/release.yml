@@ -71,8 +71,8 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
 
-#      - name: Build the SDK for release
-#        run: npm run build
+      #      - name: Build the SDK for release
+      #        run: npm run build
 
       - name: Release
         env:
