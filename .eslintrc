@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "rules": {
+    "no-constant-condition": [
+      "error",
+      {
+        "checkLoops": false
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "extends": ["eslint:recommended"]
+    }
+  ],
+  "ignorePatterns": []
+}
