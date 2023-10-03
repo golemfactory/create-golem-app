@@ -38,4 +38,4 @@ jobs:
           npm run format:check
           npm run lint
           npm ln
-          create-golem-app --version
+          create-golem-app -V
