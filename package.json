@@ -34,7 +34,7 @@
   "author": "GolemFactory <contact@golem.network>",
   "license": "GPL-3.0",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "bugs": {
     "url": "https://github.com/GolemFactory/create-golem-app/issues"
