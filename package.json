@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/GolemFactory/create-golem-app#readme",
   "dependencies": {
-    "@golem-sdk/cli": "^1.0.0"
+    "@golem-sdk/cli": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.0.0",
