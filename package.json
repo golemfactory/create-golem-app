@@ -34,18 +34,18 @@
   "author": "GolemFactory <contact@golem.network>",
   "license": "GPL-3.0",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "bugs": {
     "url": "https://github.com/GolemFactory/create-golem-app/issues"
   },
   "homepage": "https://github.com/GolemFactory/create-golem-app#readme",
   "dependencies": {
-    "@golem-sdk/cli": "^1.0.0"
+    "@golem-sdk/cli": "^2.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cli": "^18.0.0",
+    "@commitlint/config-conventional": "^18.1.0",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "husky": "^8.0.3",
